@@ -24,6 +24,16 @@ RandomX is used for Monero-compatible proof-of-work hashing.
 
 ---
 
+## 📦 nlohmann::json
+
+- Source: [https://github.com/nlohmann/json](https://github.com/nlohmann/json)
+- License: MIT License
+- License file: [https://github.com/nlohmann/json/blob/develop/LICENSE.MIT](https://github.com/nlohmann/json/blob/develop/LICENSE.MIT)
+
+This library is used for parsing and serializing JSON throughout the application.
+
+---
+
 ## Note
 
 If you intend to use this miner commercially, ensure you verify the licensing  
