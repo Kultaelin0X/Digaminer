@@ -15,16 +15,21 @@ If you're unsure or concerned:
 
 - Use something else
 
-> 🧠 **Reminder:** Always download and build from trusted sources. Mining software is frequently abused by bad actors — be safe and verify.
+> **Reminder:** Always download and build from trusted sources. Mining software is frequently abused by bad actors — be safe and verify.
 
 
 ## License
 
 This project is licensed under the MIT License – see the [LICENSE](./LICENSE) file for details.
 
-### Includes
+## Dependencies
 
-- [RandomX](https://github.com/tevador/RandomX) – BSD 3-Clause License
-- [WinRing0](https://openlibsys.org/) – proprietary, not open source
+This project uses the following third-party libraries:
+
+- [RandomX](https://github.com/tevador/RandomX) – for proof-of-work hashing (BSD 3-Clause)
+- [nlohmann::json](https://github.com/nlohmann/json) – for JSON handling (MIT License)
+- [WinRing0](https://openlibsys.org/) – for MSR register access (proprietary license)
+
+See [NOTICE.md](./NOTICE.md) for more information.
 
 See [NOTICE.md](./NOTICE.md) for more information.
