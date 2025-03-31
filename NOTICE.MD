@@ -24,7 +24,7 @@ RandomX is used for Monero-compatible proof-of-work hashing.
 
 ---
 
-## 📦 nlohmann::json
+## nlohmann::json
 
 - Source: [https://github.com/nlohmann/json](https://github.com/nlohmann/json)
 - License: MIT License
