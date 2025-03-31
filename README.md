@@ -15,7 +15,7 @@ This is a **false positive** and common with mining tools due to:
 - Association with mining software bundled in malware
 
 **This miner does not contain malicious code.**  
-Feel free to build from source or inspect the `.pdb` (debug symbols) included in the release.
+Feel free to inspect the `.pdb` (debug symbols) included in the release.
 
 ---
 
@@ -53,7 +53,7 @@ Feel free to build from source or inspect the `.pdb` (debug symbols) included in
 - **DAO governance**: Every GDG coin equals one vote on network decisions
 - **Privacy-first**: Monero-style RingCT keeps transactions secure and private
 
-### ⚙️ Technology Highlights
+### Technology Highlights
 
 - **Algorithm**: RandomX (`rx/0`), CPU-only
 - **Block time**: 2 minutes
