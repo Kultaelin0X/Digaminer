@@ -92,7 +92,7 @@ You can run the miner either via command-line arguments or using a config file.
 ### Basic CLI example:
 
 ```bash
-RxMiner.exe --login 48NYourMoneroWallet --url smartpool.goldi.ga:7272 --threads 4 --max-hashrate 900
+RxMiner.exe --login 53YourGoldigaWallet --url smartpool.goldi.ga:7272 --threads 3 --max-hashrate 900
 ```
 
 ### Available options:
@@ -116,7 +116,7 @@ RxMiner.exe --login 48NYourMoneroWallet --url smartpool.goldi.ga:7272 --threads 
   "login": "53YourWalletHere",
   "pass": "x",
   "url": "smartpool.goldi.ga:7272",
-  "threads": 4,
+  "threads": 3,
   "max_hashrate": 900.0,
   "msr": true
 }
