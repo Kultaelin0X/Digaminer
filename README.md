@@ -1,8 +1,10 @@
 # Digaminer – Hashrate limited RandomX Miner
 **Digaminer** is a lightweight, configurable CPU miner designed for coins using the **RandomX** algorithm – primarily optimized for the [Goldiga (GDG)](http://www.goldi.ga) coin.
 
-This project focuses on clarity, low resource usage, and flexibility – perfect for smartpool mining, or experimenting with alternative RandomX forks.
+Goldiga has a built-in maximum hashrate limit per device, enforced by the protocol.  
+The cap is set at **950 H/s**.
 
+This application automatically adjusts its performance to stay **just below the 950 H/s threshold**, ensuring compliance while maximizing mining efficiency.
 ---
 
 ## Antivirus / False Positive Notice
