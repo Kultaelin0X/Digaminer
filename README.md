@@ -106,22 +106,30 @@ RxMiner.exe --login 53YourGoldigaWallet --url smartpool.goldi.ga:7272 --threads 
 | `--url <pool:port>`    | Mining pool address                         |
 | `--threads <n>`        | Number of miner threads (default: `4`)      |
 | `--max-hashrate <hps>` | Limit total hash rate (default: `900.0`)    |
+| `--dataset <0/1>`      | Use ~2GB RandomX dataset (default: 1)       |
+| `--msr <0/1>`          | Apply msr tweak (default: 1)                |
 | `--config <path>`      | Load config from JSON file                  |
 | `--help`               | Show help                                   |
 
 ---
 
-## 📄 Example `config.json`
+## 📄 Example `config.cfg`
 
-```json
-{
-  "login": "53YourWalletHere",
-  "pass": "x",
-  "url": "smartpool.goldi.ga:7272",
-  "threads": 3,
-  "max_hashrate": 900.0,
-  "msr": true
-}
+```conf
+# Example config file for Digaminer
+# Lines starting with # are comments
+
+# Required
+login=AnVU1o1VM3LdEs1WrxDbfqakkHxkkX7sbgBzdcqGuGi1Kr1YmvHRdym1FjoJ8oBGLn1AgJsP1z7uXNmFn1WVqxL5UFb4zTv
+url=smartpool.goldi.ga:7272
+pass=x
+
+# Optional
+threads=3
+max-hashrate=900.0
+devdonate=1.0
+dataset=1
+msr=1
 ```
 
 CLI flags override values in the config file.
