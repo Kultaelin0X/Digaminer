@@ -27,7 +27,7 @@ Feel free to inspect the `.pdb` (debug symbols) included in the release.
 - Adjustable thread count and hashrate limit
 - Real-time hashrate monitoring (10s / 60s / 5m)
 - Optional MSR register tweaks for Intel/AMD CPUs
-- Configurable via CLI or JSON file
+- Configurable via CLI or config file
 - Minimal dependencies
 
 ---
