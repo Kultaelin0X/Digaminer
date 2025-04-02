@@ -99,17 +99,19 @@ DigaMiner.exe --login 53YourGoldigaWallet --url smartpool.goldi.ga:7272 --thread
 
 ### Available options:
 
-| Option                 | Description                                 |
-|------------------------|---------------------------------------------|
-| `--login <wallet>`     | Your Monero/Goldiga wallet address          |
-| `--pass <password>`    | Pool password (default: `x`)                |
-| `--url <pool:port>`    | Mining pool address                         |
-| `--threads <n>`        | Number of miner threads (default: `4`)      |
-| `--max-hashrate <hps>` | Limit total hash rate (default: `900.0`)    |
-| `--dataset <0/1>`      | Use ~2GB RandomX dataset (default: 1)       |
-| `--msr <0/1>`          | Apply msr tweak (default: 1)                |
-| `--config <path>`      | Load config from JSON file                  |
-| `--help`               | Show help                                   |
+| Option                 | Description                                         |
+|------------------------|-----------------------------------------------------|
+| `--login <wallet>`     | Your Monero/Goldiga wallet address                  |
+| `--pass <password>`    | Pool password (default: `x`)                        |
+| `--url <pool:port>`    | Mining pool address                                 |
+| `--threads <n>`        | Number of miner threads (default: `4`)              |
+| `--max-hashrate <hps>` | Limit total hash rate (default: `900.0`)            |
+| `--dataset <0/1>`      | Use ~2GB RandomX dataset (default: 1)               |
+| `--msr <0/1>`          | Apply msr tweak (default: 1)                        |
+| `--config <path>`      | Load config from JSON file                          |
+| `--logfile <path>`     | Log file path (optional)                            | 
+| `--logsize <bytes>`    | Max size of log file before rotation (default: 1MB) |
+| `--help`               | Show help                                           |
 
 ---
 
@@ -130,6 +132,10 @@ max-hashrate=900.0
 devdonate=1.0
 dataset=1
 msr=1
+
+# Logging
+logfile=miner.log
+logsize=1048576   # 1 MB
 ```
 
 CLI flags override values in the config file.
