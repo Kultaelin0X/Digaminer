@@ -101,7 +101,7 @@ DigaMiner.exe --login 53YourGoldigaWallet --url smartpool.goldi.ga:7272 --thread
 
 | Option                 | Description                                         |
 |------------------------|-----------------------------------------------------|
-| `--login <wallet>`     | Your Monero/Goldiga wallet address                  |
+| `--login <wallet>`     | Your Goldiga wallet address                         |
 | `--pass <password>`    | Pool password (default: `x`)                        |
 | `--url <pool:port>`    | Mining pool address                                 |
 | `--threads <n>`        | Number of miner threads (default: `4`)              |
@@ -152,8 +152,7 @@ See [`LICENSE`](./LICENSE) for full terms.
 ## Related files
 
 - [`NOTICE.md`](./NOTICE.md) – licenses for included third-party libraries
-- `LICENSE` – your MIT license
-- `.pdb` file (optional) – included for debug/symbol transparency
+- `LICENSE` –  MIT license
 
 ---
 
